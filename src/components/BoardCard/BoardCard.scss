@@ -1,0 +1,21 @@
+.card-top {
+    display: flex;
+
+    justify-content: space-between;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.875rem;
+}
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.card-footer-item {
+    display: flex;
+    align-items: center;
+}
+.card-footer-icon {
+    width: 18px;
+}

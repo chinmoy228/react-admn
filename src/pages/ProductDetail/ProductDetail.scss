@@ -1,0 +1,42 @@
+.productDetailImageGallary {
+  .image-gallery {
+    .image-gallery-content {
+      .image-gallery-thumbnails-wrapper {
+        .image-gallery-thumbnails {
+        }
+      }
+      .image-gallery-slide-wrapper {
+        .image-gallery-left-nav {
+          padding: 10px 10px;
+          svg {
+            width: 40px;
+            height: 50px;
+          }
+        }
+        .image-gallery-right-nav {
+          padding: 10px 10px;
+          svg {
+            width: 40px;
+            height: 50px;
+          }
+        }
+        .image-gallery-swipe {
+          .image-gallery-slides {
+            .image-gallery-slide {
+            //   max-height: 80vh !important;
+            //   max-width: 80vh !important;
+              .image-gallery-image {
+                width: 100% !important;
+                height: 66vh !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.product-des{
+    color: #434343;
+}

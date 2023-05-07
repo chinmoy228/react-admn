@@ -1,0 +1,74 @@
+.logoBoxContainer {
+  height: 0;
+  overflow: hidden;
+  padding-top: 24%;
+  position: relative;
+  cursor: pointer;
+  margin: 6px 32px;
+  .logoBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    img {
+      object-position: center;
+      width: auto;
+      height: 100%;
+    }
+  }
+}
+
+.logoBoxContainerOneByOne {
+  height: 0;
+  overflow: hidden;
+  padding-top: 60%;
+  position: relative;
+  cursor: pointer;
+  margin: 6px 12px;
+
+  .logoBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    img {
+      object-position: center;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.main-side-bar {
+  .ant-layout-sider-children {
+    position: relative;
+    .sider-toggler-main {
+      position: absolute;
+      bottom: 0%;
+      z-index: 999;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      height: 7%;
+    }
+    .sideBarMenuList{
+      max-height: 86%;
+      overflow-y: scroll;
+
+      &::-webkit-scrollbar {
+       display: none;
+      }
+
+      &::-webkit-scrollbar-track {
+        display: none;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        display: none;
+      }
+    }
+  }
+}

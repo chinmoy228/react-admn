@@ -1,0 +1,12 @@
+.imageDivMain{
+    position: relative;
+    .closeBtn{
+        padding: 0 !important;
+        position: absolute;
+        bottom: 110 !important;
+        right: 3%;
+        bottom:87%;
+        cursor: pointer;
+        z-index: 9;
+    }
+}

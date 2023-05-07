@@ -1,0 +1,26 @@
+.heading {
+    color: rgb(90, 95, 125);
+}
+.edit-icon {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.shipping-info-radio {
+    & .ant-radio {
+        margin-top: 5px !important ;
+        align-self: start !important;
+    }
+    & h5 {
+        margin-top: 0;
+    }
+    & .radio-name {
+        margin-top: 0;
+        margin-bottom: 0 !important;
+    }
+}
+
+p {
+    margin: 5px 0px !important;
+}

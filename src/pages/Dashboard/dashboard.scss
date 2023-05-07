@@ -1,0 +1,21 @@
+.background-radius-red-stats-card{
+    background-color: rgb(255, 225, 229);
+    border-radius: 50%;
+}
+.background-radius-green-stats-card{
+    background-color: rgba(9, 182, 109, 0.15);
+    border-radius: 50%;
+}
+.text-red{
+    color: rgb(255, 61, 87);
+}
+.text-green{
+    color: rgb(8, 173, 108);
+}
+.card-transaction{
+    overflow: auto;
+}
+.pie-dashboard{
+    height: 258px !important;
+    width: 258px !important;
+}
